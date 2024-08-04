@@ -13,16 +13,23 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 h1{
     -webkit-text-stroke: 2px hsl(0, 0%, 10%);   
     font-size: 3.5rem;
     color: #EDE8E4;
+    align-items: center;
+    text-align: center;
 }
 .choices{
     margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
 }
 .choices button{
+    align-items: center;
+    text-align: center;
     font-size: 7.5rem;
     min-width: 160px;
     margin: 0 10px;
@@ -40,21 +47,31 @@ h1{
     -webkit-text-stroke: 2px black;
     color: #EDE8E4;
     font-size: 2.5rem;
+    align-items: center;
+    text-align: center;
 }
 #resultDisplay{
     font-size: 5rem;
     margin: 30px 0;
+    align-items: center;
+    text-align: center;
 }
 .scoreDisplay{
     -webkit-text-stroke: 2px black;
     color: #EDE8E4;
     font-size: 2rem;
+    align-items: center;
+    text-align: center;
 }
 .greenText, #playerScoreDisplay{
     -webkit-text-stroke: 2px black;
     color: hsl(130, 84%, 54%);
+    align-items: center;
+    text-align: center;
 }
 .redText, #computerScoreDisplay{
     -webkit-text-stroke: 2px black;
     color: hsl(0, 84%, 60%);
+    align-items: center;
+    text-align: center;
 }
